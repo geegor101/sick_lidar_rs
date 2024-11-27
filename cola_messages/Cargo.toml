@@ -1,0 +1,12 @@
+[package]
+name = "cola_messages"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cola_macros = { path = "../cola_macros" }
+cola_lib = { path = "../cola_lib" }
+tokio = { version = "1.38.0", features = ["full"] }
+subenum = "1.1.2"

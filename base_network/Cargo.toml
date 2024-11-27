@@ -1,0 +1,9 @@
+[package]
+name = "base_network"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+array2d = "0.3.2"
+smallvec = "1.13.2"
+tokio = { version = "1.38.0", features = ["full"] }
